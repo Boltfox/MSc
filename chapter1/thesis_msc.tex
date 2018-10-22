@@ -2,7 +2,7 @@
 % TEMPLATE AUTHOR: TOMAS CASSANELLI
 
 % INITIAL CONFIGURATION
-\documentclass[a4paper, 10pt, twoside]{book}
+\documentclass[a4paper, 9pt, twoside]{book}
 
 \usepackage[              % Left and right margins
     DIV=18,               % You can play with these numbers for a better
@@ -38,14 +38,14 @@
 \usepackage{commath}
 \usepackage{forloop}
 \usepackage{blindtext}
-\usepackage[usenames, dvipsnames]{xcolor}
-\usepackage[no-math]{fontspec}
-\usepackage{xunicode}
-\usepackage{xltxtra}
-\XeTeXlinebreaklocale "th"
-\renewcommand{\baselinestretch}{1.6}
+%\usepackage[usenames, dvipsnames]{xcolor}
+%\usepackage[no-math]{fontspec}
+%\usepackage{xunicode}
+%The \usepackage{xltxtra}
+%\XeTeXlinebreaklocale "th"
+%\renewcommand{\baselinestretch}{1.6}
 
-\setmonofont[Script=Thai,Scale=0.9]{DroidSansMono.ttf}
+%\setmonofont[Script=Thai,Scale=0.9]{DroidSansMono.ttf}
 % to know the page width and adjust the image size!
 \usepackage{printlen} % \uselengthunit{in}\printlength{\textwidth}
 
@@ -110,12 +110,12 @@
     pdfauthor={Jompoj Wongphechauxsorn},          % AUTHOR
     pdfsubject={\title},                      % DOCUMENT SUBJECT
     pdfcreator={Tomas Cassanelli},            % CREATOR
-    pdfproducer={\thesisauthor},              % PRODUCER
+    %pdfproducer={\thesisauthor},              % PRODUCER
     pdfkeywords={Astronomy, Astrophysics},
     pdfnewwindow=true,
     colorlinks=true,                          % COMMENT FOR BLACK LINKS
     linkcolor=red,
-    citecolor=YellowOrange,
+    %citecolor=YellowOrange,
     urlcolor=RoyalBlue
     }
 
@@ -180,7 +180,6 @@
     \begin{dedication}
     \pdfbookmark[0]{Dedication}{dedication}
     \st{``Effort Won’t Betray You"}\\
-    \st{คำว่าพยายาม ไม่เคยทำร้ายซักคนที่ตั้งใจ}
     %\st{Hellow world}
     \end{dedication}
 
